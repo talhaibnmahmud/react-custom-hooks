@@ -1,3 +1,5 @@
+import UseToggle from "./components/UseToggle";
+
 function App() {
   return (
     <div>
@@ -6,6 +8,9 @@ function App() {
           React Custom Hooks
         </h1>
       </header>
+      <main>
+        <UseToggle />
+      </main>
     </div>
   );
 }
